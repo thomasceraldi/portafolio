@@ -1,0 +1,1354 @@
+/* snippet reseteo */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+
+body {
+    text-align: center;
+    font-family: "Gentium Book Plus", sans-serif;
+    color: #000000;
+    background: beige;
+    line-height: 1.5;
+}
+
+/* <h> */
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-bottom: 1.5rem;
+}
+
+/* <p> */
+
+p {
+    margin-top: 1.5rem;
+}
+
+/* <a> */
+
+a {
+    color: #000000;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a:hover {
+    color: rgb(149, 166, 180);
+}
+
+/* SUBTITULOS */
+
+.subTitulos {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #000000ad;
+}
+
+/* MENU */
+
+nav {
+    padding: 0.3rem 1.7rem;
+    background-color: #000000e0;
+    box-shadow: 1px 1px 25px #4e4e4f;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuBurger {
+    display: none;
+}
+
+#menu {
+    text-align-last: justify;
+}
+
+.navFlotante {
+    position: sticky;
+    top: 0;
+    z-index: 9000;
+    background-color: black;
+}
+
+.contenedorListasMenu {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.contenedorListasMenu :last-child {
+    padding-right: 0;
+}
+
+.listaMenu {
+    padding: 1rem 2rem 1rem 0;
+}
+
+.itemMenu {
+    color: #fffffffa;
+    font-size: 1.2rem;
+}
+
+.itemMenu i {
+    padding-right: 0.4rem !important;
+}
+
+#contenedorLogo {
+    padding-left: 5rem;
+}
+
+.logo {
+    width: 5rem;
+}
+
+#menuMediaQuery {
+    display: none;
+}
+
+/* HEADER */
+
+header {
+    padding: 5rem 1.7rem;
+}
+
+/* TITULO */
+
+#contenedorTitulo {
+    display: inline-flex;
+    align-items: self-end;
+    text-align-last: end;
+    margin-bottom: 3rem;
+}
+
+.imagenTitulo {
+    width: 12rem;
+    border-radius: 100%;
+}
+
+.titulo {
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+
+.titulo p {
+    color: saddlebrown;
+    text-shadow: 2px 2px 2px #fec48000;
+    margin: 0;
+}
+
+.contenedorListasHeader {
+    display: inline-flex;
+    list-style: none;
+    margin-bottom: 0;
+    background: rgb(0, 0, 0);
+    padding: 0.4rem 0;
+    border: 2px outset black;
+    width: 52rem;
+    justify-content: space-around;
+}
+
+.listaHeader {
+    font-size: 1.3rem;
+}
+
+.itemHeader {
+    display: grid;
+    color: rgb(254, 196, 128);
+}
+
+.listaLinkedin {
+    margin-left: 2.2rem;
+}
+
+/* PROYECTOS */
+
+#proyectos {
+    padding: 0 1.7rem;
+    background: linear-gradient(beige, #907ccb47, #ffd60d26, beige);
+}
+
+#contenedorProyectos {
+    display: grid;
+    grid-template-areas: "htmlcss  js"
+                         "htmlcss  js"
+                         "sass     react"
+                         "sass     react";
+    grid-row-gap: 2rem;
+    grid-auto-columns: 1fr;
+}
+
+#contenedorProyectoHtmlCss {
+    grid-area: htmlcss;
+    padding-right: 1rem;
+}
+
+#contenedorProyectoHtmlCss div {
+    background: #f9a474;
+    color: #582614;
+}
+
+#contenedorProyectoHtmlCss div button {
+    background: #582614;
+    color: #f9a474;
+    margin: 1rem 0;
+}
+
+#contenedorProyectoHtmlCss div button:hover {
+    background: #000000;
+    transition: .7s;
+}
+
+#contenedorProyectoHtmlCss div ul li i{
+    color: #582614;
+}
+
+#contenedorProyectoJs {
+    grid-area: js;
+    padding-left: 1rem;
+}
+
+#contenedorProyectoJs div {
+    background: #fedf6f;
+    color: #4a411e;
+    padding-bottom: 1rem;
+}
+
+#contenedorProyectoJs div button {
+    background: #4a411e;
+    color: #fedf6f;
+    margin: 1rem 0;
+}
+
+#contenedorProyectoJs div button:hover {
+    background: #000000;
+    transition: .7s;
+}
+
+#contenedorProyectoJs div ul {
+    margin-top: 1.2rem;
+}
+
+#contenedorProyectoJs div ul li i {
+    color: #4a411e;
+}
+
+#contenedorProyectoSass {
+    grid-area: sass;
+    padding-right: 1rem;
+}
+
+#contenedorProyectoSass div {
+    background: #c3b2e7;
+    color: #52225e;
+    padding-bottom: 1rem;
+}
+
+#contenedorProyectoSass div button {
+    background: #52225e;
+    color: #c3b2e7;
+    margin: 1rem 0;
+}
+
+#contenedorProyectoSass div button:hover {
+    background: #000000;
+    transition: .7s;
+}
+
+#contenedorProyectoSass div ul {
+    margin-top: 6.1rem;
+}
+
+#contenedorProyectoSass div ul li i {
+    color: #52225e;
+}
+
+#contenedorProyectoReact {
+    grid-area: react;
+    padding-left: 1rem;
+}
+
+#contenedorProyectoReact div {
+    background: #c0d19e;
+    color: #1c471f;
+}
+
+#contenedorProyectoReact div button {
+    background: #1c471f;
+    color: #c0d19e;
+    margin: 1rem 0;
+}
+
+#contenedorProyectoReact div button:hover {
+    background: #000000;
+    transition: .7s;
+}
+
+#contenedorProyectoReact div ul li i {
+    color: #1c471f;
+}
+
+.ulTopReactProyecto {
+    margin-top: 1.1rem;
+    margin-bottom: 0;
+}
+
+.ulBottomReactProyecto {
+    padding-left: 2.2rem !important;
+    padding-right: 1.4rem !important;
+}
+
+.imagenProyecto {
+    width: 100%;
+    border-bottom: 0.13rem solid black;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+#contenedorContenidoProyecto {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#contenedorTituloBotonProyecto {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.5rem 2rem !important;
+}
+
+.tituloProyecto {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.textoProyecto {
+    padding: 0 2rem;
+    text-align: start;
+    margin: 0;
+}
+
+.botonProyecto {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.videoProyecto {
+    width: 100%;
+}
+
+.modalContent {
+    padding-bottom: 0 !important;
+    margin-top: 1.9rem;
+}
+
+.modalHeaderBartonJs {
+    padding-bottom: 0 !important;
+}
+
+.modalFooterBartonJs {
+    padding-bottom: 0 !important;
+}
+
+.modalHeaderTiendaOnline {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.modalFooterTiendaOnline {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.modalHeaderReact {
+    padding-top: 1.5rem;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    background: #a59d90 !important;
+}
+
+.modal-header {
+    border-bottom-color: #00000052 !important;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    font-weight: bold !important;
+}
+
+.btn-close {
+    background: none !important;
+    opacity: initial;
+    height: 100%;
+    padding-bottom: 1.5rem !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn-close i {
+    color: #8d1b19a1;
+    font-size: 1.5rem;
+}
+
+.modal-footer {
+    border-top-color: #00000052 !important;
+}
+
+.btn-secondary {
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.btn-secondary a {
+    color: #ffffffdb;
+}
+
+.btn-secondary a i {
+    font-size: 1.15rem;
+    padding-right: 0.5rem;
+}
+
+.listaElementosProyecto {
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.listaElementosProyecto svg {
+    width: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+/* SKILLSET */
+
+#skillset {
+    padding: 3rem 1.7rem 0;
+    background: linear-gradient(beige, #ffd60d26, beige);
+}
+
+#skillset h2 {
+    margin-bottom: 0;
+}
+
+#contenedorSkillset {
+    margin: 3rem 0;
+}
+
+#divisionSkillset {
+    margin-bottom: 2rem;
+}
+
+.iconoSkill {
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+.iconoSkillSvg {
+    width: 5rem;
+    vertical-align: bottom;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.logoTerminal {
+    font-size: 4.8rem;
+}
+
+.logoPhotoshop {
+    width: 5.5rem;
+}
+
+#skillsetMediaQuery {
+    display: none;
+}
+
+/* HABLIDADES EXTRA */
+
+#habilidadesExtra {
+    padding: 0 1.7rem;
+    background: linear-gradient(beige, #cfb97940, beige);
+    margin-bottom: 3rem;
+}
+
+#habilidadesExtra h2 {
+    margin-bottom: 3rem;
+}
+
+#contenedorHabilidades {
+    display: flex;
+}
+
+#contenedorHabilidades div img {
+    width: 9rem;
+    background: radial-gradient(#e4ffafb0, #ffd60d4a);
+    padding: 1.2rem;
+    border-radius: 33%;
+    border: solid #00000026;
+}
+
+#contenedorHabilidades div p {
+    font-size: 1rem;
+}
+
+#contenedorPsicologia {
+    padding-right: 3rem;
+}
+
+#contenedorPc {
+    padding-left: 3rem;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 0.7rem 1.7rem;
+    background: #8b4513b8;
+    color: #ffffffe6;
+    font-size: 1.25rem;
+}
+
+footer p {
+    font-style: italic;
+    margin: 0;
+}
+
+/* Media Queries */
+
+/* width 1281 */
+
+@media only screen and (min-width: 1281px) {
+
+    #contenedorProyectoSass div ul {
+        margin-top: 7.7rem;
+    }
+}
+
+/* width 934 - 880 */
+
+@media only screen and (max-width: 935px) and (min-width: 880px) {
+    
+    /* HEADER */
+
+    .listaHeader {
+        font-size: 1.2rem;
+    }
+
+    /* SKILLSET */
+
+    .iconoSkill {
+        font-size: 4rem;
+    }
+
+    .iconoSkillSvg {
+        width: 4rem;
+        margin-bottom: 0;
+    }
+
+    .logoTerminal {
+        font-size: 3.8rem;
+    }
+
+    .logoPhotoshop {
+        width: 4.5rem;
+    }
+
+}
+
+/* width 880 - 725 */
+
+@media only screen and (max-width: 880px) and (min-width: 725px) {
+    
+    /* MENU */
+
+    .listaMenu {
+        align-self: center;
+        padding: 0 1rem 0 0;
+    }
+
+    .itemMenu {
+        font-size: 1.15rem;
+    }
+
+    #contenedorLogo {
+        padding-left: 4.5rem;
+    }
+
+    .logo {
+        width: 5rem;
+    }
+    
+    /* HEADER */
+
+    .imagenTitulo {
+        width: 10rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .contenedorListasHeader {
+        width: 41rem;
+    }
+
+    .listaLinkedin {
+        margin-left: 3rem;
+    }
+
+    /* SUBTITULOS */
+
+    .subTitulos {
+        font-size: 2.5rem;
+    }
+
+    /* PROYECTOS */
+
+    .textoProyecto {
+        font-size: 1.1rem;
+    }
+
+    @media only screen and (max-width: 845px) {
+        
+        #contenedorTituloBotonProyecto {
+            flex-direction: column;
+        }
+        
+        .tituloProyecto {
+            padding-top: 1rem;
+            align-self: center;
+        }
+        
+        #contenedorTituloBotonProyecto button {
+            margin: 0 0 0.4rem 0 !important;
+            align-self: stretch;
+        }
+    }
+
+    /* SKILLSET */
+
+    #contenedorSkillset {
+        margin: 3rem 0 1rem 0;
+    }
+
+    .iconoSkill {
+        font-size: 3.24rem;
+    }
+
+    .iconoSkillSvg {
+        width: 3.24rem;
+        vertical-align: middle;
+        margin-bottom: 2.2rem;
+    }
+
+    .logoTerminal {
+        font-size: 3.04rem;
+    }
+
+    .logoPhotoshop {
+        width: 3.74rem;
+    }
+
+    /* HABILIDADES EXTRA */
+
+    #contenedorHabilidades {
+        display: block;
+    }
+
+    #contenedorHabilidades div p {
+        font-size: 1.2rem;
+    }
+
+    #contenedorPsicologia {
+        padding-right: 0;
+    }
+
+    #contenedorPc {
+        padding-left: 0;
+    }
+
+    /* FOOTER */
+
+    footer p {
+        font-size: 1.4rem;
+    }
+}
+
+/* width 724 - 617 */
+
+@media only screen and (max-width: 724px) {
+    
+    /* MENU */
+
+    nav {
+        padding: 0.5rem 1.7rem;
+    }
+
+   #contenedorLogo {
+        padding-left: 10rem;
+    }
+
+    #menuBurger {
+        visibility: visible;
+        display: block;
+        align-self: center;
+    }
+
+    .botonMenuBurger {
+        background: transparent;
+    }
+
+    .botonMenuBurger i {
+        color: #fffffffa;
+        font-size: 2.2rem;
+    }
+
+    /* DENTRO DEL MENU BURGER */
+
+    #menuFlex {
+        list-style: none;
+        padding-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    #menuFlex li a {
+        font-size: 1.3rem !important;
+    }
+
+    #menuFlex li a i {
+        padding-right: .7rem !important;
+    }
+    
+    #contenedorBotonCloseMenuBurger {
+        justify-content: flex-end;
+        padding-right: 1.4rem;
+    }
+
+    #contenedorBotonCloseMenuBurger button {
+        margin: 0;
+    }
+
+    #contenedorBotonCloseMenuBurger button i {
+        color: #8d1b19e8;
+        font-size: 1.1rem;
+        border-radius: 100%;
+        border: 1px solid;
+        padding: 0.1rem 0.4rem;
+    }
+
+    /* --------------------- */
+
+    #contenedorMenuGitHubLinkedin {
+        display: none;
+    }
+
+    .listaMenu {
+        padding: 1rem 0.8rem 1rem 0;
+    }
+
+    .itemMenu {
+        font-size: 1.3rem;
+    }
+
+    .textoHabilidadesExtraMenu {
+        padding-right: 0;
+    }
+
+    .textoEmailMenu {
+        display: none;
+    }
+
+    /* HEADER */
+
+    .imagenTitulo {
+        width: 10rem;
+    }
+
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .contenedorListasHeader {
+        width: 36rem;
+    }
+
+    .itemHeader {
+        display: flex;
+    }
+
+    .itemHeader i {
+        padding-right: 0.7rem;
+    }
+
+    /* SUBTITULOS */
+
+    .subTitulos {
+        font-size: 2.3rem;
+    }
+
+    /* PROYECTOS */
+
+    #contenedorTituloBotonProyecto {
+        flex-direction: column;
+    }
+    
+    .tituloProyecto {
+        padding-top: 1rem;
+        align-self: center;
+        font-size: 1.5rem;
+    }
+    
+    #contenedorTituloBotonProyecto button {
+        margin: 0 0 0.4rem 0 !important;
+        align-self: stretch;
+    }
+
+    .botonProyecto {
+        font-size: 0.9rem;
+    }
+
+    .listaElementosProyecto {
+        font-size: 2.2rem;
+    }
+
+    .listaElementosProyecto svg {
+        width: 2.7rem;
+    }
+
+    @media only screen and (max-width: 639px) {
+
+        #contenedorProyectoHtmlCss #contenedorContenidoProyecto div h3 {
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    /* SKILLSET */
+
+    #contenedorSkillset {
+        margin: 1rem 0 0 0;
+    }
+
+    .iconoSkill {
+        font-size: 3.2rem;
+        margin: 0.6rem;
+    }
+
+    .iconoSkillSvg {
+        width: 3.2rem;
+        vertical-align: middle;
+        margin-bottom: 2.2rem;
+    }
+
+    .logoTerminal {
+        font-size: 3rem;
+    }
+
+    .logoPhotoshop {
+        width: 3.7rem;
+    }
+
+    @media only screen and (max-width: 631px) {
+
+        .iconoSkill {
+            margin: 0.45rem;
+        }
+
+        .iconoSkillSvg {
+            margin-left: 0.4rem;
+            margin-right: 0.4rem;
+        }
+    }
+
+    /* HABILIDADES EXTRA */
+
+    #habilidadesExtra h2 {
+        margin-bottom: 0;
+        padding-bottom: 2.5rem;
+
+    }
+
+    #contenedorHabilidades {
+        display: block;
+    }
+
+    #contenedorHabilidades div img {
+        width: 6.5rem;
+    }
+
+    #contenedorHabilidades div p {
+        font-size: 1.1rem;
+    }
+
+    #contenedorPsicologia {
+        padding-right: 0;
+    }
+
+    #contenedorPc {
+        padding-left: 0;
+    }
+
+    /* FOOTER */
+
+    footer p {
+        font-size: 1.3rem;
+    }
+
+    /* width 616 */
+
+    @media only screen and (max-width: 616px) {
+
+        /* SUBTITULOS */
+
+        .subTitulos {
+            font-size: 2.1rem;
+        }
+
+        /* MENU */
+
+        nav {
+            padding: 0.2rem 1.7rem;
+        }
+
+        .botonMenuBurger i {
+            font-size: 2rem;
+        }
+
+        #contenedorLogo {
+            padding-left: 9rem;
+            align-content: center;
+        }
+
+        .logo {
+            width: 4rem;
+        }
+
+        .listaMenu {
+            padding: 1rem 1rem 1rem 0;
+        }
+
+        .itemMenu {
+            font-size: 1rem;
+        }
+
+        /* HEADER */
+
+        #contenedorTitulo {
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .imagenTitulo {
+            width: 9rem;
+        }
+
+        .titulo {
+            font-size: 2.3rem;
+        }
+
+        .contenedorListasHeader {
+            width: 100%;
+        }
+
+        .listaHeader {
+            font-size: 1.15rem;
+        }
+
+        /* PROYECTOS */
+
+        #contenedorProyectos {
+            display: block;
+        }
+
+        #contenedorProyectos article {
+            margin-bottom: 3rem;
+        }
+
+        #contenedorProyectoHtmlCss {
+            padding-right: 0; 
+        }
+
+        #contenedorProyectoJs {
+            padding-left: 0;
+        }
+
+        #contenedorProyectoSass {
+            padding-right: 0;
+        }
+
+        #contenedorProyectoReact {
+            padding-left: 0;
+        }
+
+        #contenedorProyectoHtmlCss #contenedorContenidoProyecto div h3 {
+            margin-top: 0;
+            margin-bottom: 0.8rem;
+        }
+
+        #contenedorTituloBotonProyecto button {
+            margin-top: 0.5rem !important;
+        }
+
+        #contenedorContenidoProyecto p {
+            margin: 0.5rem 0 1rem;
+        }
+
+        /* SKILLSET */
+
+        #skillset {
+            padding: 0 1.7rem 0;
+        }
+
+        .iconoSkill {
+            font-size: 3rem;
+        }
+    
+        .iconoSkillSvg {
+            width: 3rem;
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+        }
+    
+        .logoTerminal {
+            font-size: 2.8rem;
+        }
+    
+        .logoPhotoshop {
+            width: 3.5rem;
+        }
+
+        /* HABILIDADES EXTRA */
+
+        #contenedorHabilidades div img {
+            width: 6rem;
+        }
+
+        #contenedorHabilidades div p {
+            font-size: 1.05rem;
+        }
+
+        /* FOOTER */
+
+        footer p {
+            font-size: 1.2rem;
+        }
+
+        /* width 568 */
+
+        @media only screen and (max-width: 568px) {
+
+            /* HEADER */
+
+            .imagenTitulo {
+                width: 8rem;
+            }
+
+            .titulo {
+                font-size: 2.1rem;
+            }
+
+            /* width 558 */
+
+            @media only screen and (max-width: 559px) {
+
+                /* SKILLSET */
+
+                #skillset {
+                    display: none;
+                }
+
+                #skillsetMediaQuery {
+                    display: block;
+                    padding: 1rem 1.7rem 0;
+                    background: linear-gradient(beige, #ffd60d26, beige);
+                }
+
+                #contenedorSkillset :last-child {
+                    margin-bottom: 0;
+                }
+
+                #divisionSkillset {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .tercerContenedorSkillset {
+                    margin-bottom: 0 !important;
+                    align-items: center;
+                }
+
+                /* width 546 */
+
+                @media only screen and (max-width: 546px) {
+
+                    .botonMenuBurger i {
+                        font-size: 1.8rem;
+                    }
+
+                    .itemMenu {
+                        font-size: 0.9rem;
+                    }
+
+                    /* width 522 */
+
+                    @media only screen and (max-width: 523px) {
+
+                        /* MENU */
+
+                        #menu {
+                            display: none;
+                        }
+
+                        #menuMediaQuery {
+                            display: block;
+                            padding: 0;
+                        }
+
+                        /* DENTRO DEL MENU BURGER */
+
+                        #menuFlex {
+                            text-align: justify;
+                            margin-top: 1rem;
+                        }
+
+                        #menuFlex li {
+                            padding: 1rem 0;
+                        }
+
+                        /* --------------------- */
+
+                        #contenedorMenuBurgerLogo {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 0.5rem 1.7rem;
+                        }
+
+                        #contenedorLogo {
+                            padding: 0;
+                        }
+
+                        #contenedorListasMenuMediaQuery {
+                            padding: 0 1.7rem;
+                            background: #858585a8;
+                        }
+
+                        .contenedorListasMenu {
+                            display: flex;
+                            justify-content: space-evenly;
+                            padding-right: 1.8rem;
+                        }
+
+                        .listaMenu {
+                            padding: 0.5rem 0;
+                        }
+
+                        .itemMenu {
+                            font-size: 1rem;
+                        }
+
+                        /* HEADER */
+
+                        .imagenTitulo {
+                            width: 7rem;
+                        }
+
+                        .titulo {
+                            font-size: 2rem;
+                        }
+
+                        .contenedorListasHeader {
+                            display: contents;
+                            background: none;
+                            border: none;
+                            padding: 0;
+                        }
+
+                        .listaHeader {
+                            background: black;
+                            margin-bottom: 1rem;
+                            padding: 0.2rem;
+                        }
+
+                        .itemHeader {
+                            justify-content: center;
+                        }
+
+                        .listaLinkedin {
+                            margin-left: 0;
+                        }
+
+                        /* width 491 */
+
+                        @media only screen and (max-width: 491px) {
+
+                            /* HEADER */
+    
+                            #contenedorTitulo {
+                                display: grid;
+                                justify-items: center;
+                                justify-content: center;
+                                margin-bottom: 1.5rem;
+                            }
+    
+                            .titulo {
+                                margin-top: 0.5rem;
+                                margin-left: 0;
+                            }
+    
+                            .titulo p {
+                                text-align-last: center;
+                            }
+    
+                            .contenedorListasHeader :last-child {
+                                margin-bottom: 0;
+                            }
+
+                            /* width 362 */
+
+                            @media only screen and (max-width: 363px) {
+
+                                /* SUBTITULOS */
+
+                                .subTitulos {
+                                    font-size: 2rem;
+                                }
+                            
+                                /* HEADER */
+
+                                .titulo {
+                                    font-size: 1.9rem;
+                                }
+
+                                /* width 347 */
+
+                                @media only screen and (max-width: 348px) {
+
+                                    /* SUBTITULOS */
+
+                                    .subTitulos {
+                                        font-size: 1.9rem;
+                                    }
+                                
+                                    /* HEADER */
+
+                                    .titulo {
+                                        font-size: 1.8rem;
+                                    }
+
+                                    /* width 332 */
+
+                                    @media only screen and (max-width: 333px) {
+                                    
+                                        /* HEADER */
+
+                                        .titulo {
+                                            font-size: 1.7rem;
+                                        }
+
+                                        /* width 316 */
+
+                                        @media only screen and (max-width: 316px) {
+
+                                            /* SUBTITULOS */
+
+                                            .subTitulos {
+                                                font-size: 1.8rem;
+                                            }
+                                        
+                                            /* HEADER */
+
+                                            .imagenTitulo {
+                                                width: 6.8rem;
+                                            }
+
+                                            .titulo {
+                                                font-size: 1.6rem;
+                                            }
+
+                                            .listaHeader {
+                                                font-size: 1.1rem;
+                                            }
+
+                                            /* width 300 */
+
+                                            @media only screen and (max-width: 301px) {
+
+                                                /* SUBTITULOS */
+
+                                                .subTitulos {
+                                                    font-size: 1.7rem;
+                                                }
+
+                                                /* MENU */
+
+                                                .contenedorListasMenu {
+                                                    justify-content: space-between;
+                                                    padding-right: 0;
+                                                }
+                                            
+                                                /* HEADER */
+
+                                                .titulo {
+                                                    font-size: 1.46rem;
+                                                }
+
+                                                .listaHeader {
+                                                    font-size: 1rem;
+                                                }
+
+                                                /* PROYECTOS */
+
+                                                #contenedorProyectoSass div ul {
+                                                    display: ruby-text;
+                                                    margin-top: 5.5rem;
+                                                }
+
+                                                #contenedorProyectoSass #contenedorContenidoProyecto .listaElementosProyecto li {
+                                                    padding-right: 0.5rem;
+                                                }
+
+                                                /* SKILLSET */
+
+                                                .iconoSkill {
+                                                    font-size: 2.6rem;
+                                                }
+                                            
+                                                .iconoSkillSvg {
+                                                    width: 2.6rem;
+                                                }
+                                            
+                                                .logoTerminal {
+                                                    font-size: 2.4rem;
+                                                }
+                                            
+                                                .logoPhotoshop {
+                                                    width: 3.1rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

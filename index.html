@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
+        <meta name="keywords" content="Portafolio, CV, GitHub, Linkedin, Proyectos, Desarrollo, Programacion">
+        <title>Portafolio Thomas Ceraldi</title>
+        <meta name="description" content="¡Hola, me llamo Thomas Ceraldi, Bienvenido a mi portafolio!">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asset&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Modak&family=Radley:ital@0;1&family=Ramaraja&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles-portafolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+
+    <body>
+
+        <div id="arriba"></div>
+
+        <nav id="menu" class="navFlotante">
+            <div id="menuBurger">
+                <button type="button" class="botonMenuBurger btn-burger btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" aria-label="menu desplegable">
+                    <i class="bi bi-list" aria-label="menu hamburguesa"></i>
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div id="contenedorBotonCloseMenuBurger" class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg" aria-label="cerrar"></i></button>
+                            </div>
+                            <div class="modal-body">
+                                <nav id="navBurger">
+                                    <ul id="menuFlex">
+                                        <li class="listaMenu"><a class="itemMenu" href="https://github.com/thomasceraldi" name="GitHub" aria-label="github"><i class="bi bi-github" aria-label="github"></i>GitHub</a></li>
+                                        <li class="listaMenu"><a class="itemMenu" href="https://www.linkedin.com/in/thomas-ceraldi/" name="Linkedin" aria-label="linkedin"><i class="bi bi-linkedin" aria-label="linkedin"></i>Linkedin</a></li>
+                                        <li class="listaMenu"><a class="itemMenu" href="mailto:thomasceraldi@outlook.com" name="email" aria-label="email"><i class="bi bi-envelope-at-fill" aria-label="email"></i>Email</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul id="contenedorMenuGitHubLinkedin" class="contenedorListasMenu">
+                <li class="listaMenu"><a class="itemMenu" href="https://github.com/thomasceraldi" name="GitHub" aria-label="github"><i class="bi bi-github" aria-label="github"></i>GitHub</a></li>
+                <li class="listaMenu"><a class="itemMenu" href="https://www.linkedin.com/in/thomas-ceraldi/" name="Linkedin" aria-label="linkedin"><i class="bi bi-linkedin" aria-label="linkedin"></i>Linkedin</a></li>
+            </ul>
+            <div id="contenedorLogo">
+                <a href="#arriba" name="linkLogoHeader" aria-label="linkLogoHeader"><img class="logo" src="img/logo-ceraldi.jpg" alt="img-logo" aria-label="img-logo"></a>
+            </div>
+            <ul class="contenedorListasMenu">
+                <li class="listaMenu"><a class="itemMenu" href="#proyectos" name="linkProyectos" aria-label="linkProyectos">Proyectos</a></li>
+                <li class="listaMenu"><a class="itemMenu" href="#skillset" name="linkSkillset" aria-label="linkSkillset">Skillset</a></li>
+                <li class="textoHabilidadesExtraMenu listaMenu"><a class="itemMenu" href="#habilidadesExtra" name="linkHabilidadesExtra" aria-label="linkHabilidadesExtra">Plus</a></li>
+                <li class="textoEmailMenu listaMenu"><a class="itemMenu" href="mailto:thomasceraldi@outlook.com" name="email" aria-label="email">Email</a></li>
+            </ul>
+        </nav>
+
+        <nav id="menuMediaQuery" class="navFlotante">
+            <div id="contenedorMenuBurgerLogo">
+                <div id="menuBurger">
+                    <button type="button" class="botonMenuBurger btn-burger btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdropMediaQuery" aria-label="menu desplegable">
+                        <i class="bi bi-list" aria-label="menu hamburguesa"></i>
+                    </button>
+                    <div class="modal fade" id="staticBackdropMediaQuery" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div id="contenedorBotonCloseMenuBurger" class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg" aria-label="cerrar"></i></button>
+                                </div>
+                                <div class="modal-body">
+                                    <nav id="navBurger">
+                                        <ul id="menuFlex">
+                                            <li class="listaMenu"><a class="itemMenu" href="https://github.com/thomasceraldi" name="GitHub" aria-label="github"><i class="bi bi-github" aria-label="github"></i>GitHub</a></li>
+                                            <li class="listaMenu"><a class="itemMenu" href="https://www.linkedin.com/in/thomas-ceraldi/" name="Linkedin" aria-label="linkedin"><i class="bi bi-linkedin" aria-label="linkedin"></i>Linkedin</a></li>
+                                            <li class="listaMenu"><a class="itemMenu" href="mailto:thomasceraldi@outlook.com" name="email" aria-label="email"><i class="bi bi-envelope-at-fill" aria-label="email"></i>Email</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contenedorLogo">
+                    <a href="#arriba" name="linkLogoHeader" aria-label="linkLogoHeader"><img class="logo" src="img/logo-ceraldi.jpg" alt="img-logo" aria-label="img-logo"></a>
+                </div>
+            </div>
+            <div id="contenedorListasMenuMediaQuery">
+                <ul class="contenedorListasMenu">
+                    <li class="listaMenu"><a class="itemMenu" href="#proyectos" name="linkProyectos" aria-label="linkProyectos">Proyectos</a></li>
+                    <li class="listaMenu"><a class="itemMenu" href="#skillset" name="linkSkillset" aria-label="linkSkillset">Skillset</a></li>
+                    <li class="textoHabilidadesExtraMenu listaMenu"><a class="itemMenu" href="#habilidadesExtra" name="linkHabilidadesExtra" aria-label="linkHabilidadesExtra">Plus</a></li>
+                    <li class="textoEmailMenu listaMenu"><a class="itemMenu" href="mailto:thomasceraldi@outlook.com" name="email" aria-label="email">Email</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+                <div id="contenedorTitulo">
+                    <img class="imagenTitulo animate__animated animate__backInDown" src="img/img_yo.jpg" alt="img-thomas" aria-label="img-thomas">
+                    <h1 class="titulo"><<b></b>/> Hola, mi nombre es<br><p class="animate__animated animate__backInRight">Thomas Ceraldi</p></h1>
+                </div>
+                <aside>
+                    <ul class="contenedorListasHeader animate__animated animate__zoomIn">
+                        <li class="listaHeader"><a class="itemHeader" href="https://github.com/thomasceraldi" name="GitHub" aria-label="github"><i class="bi bi-github" aria-label="github"></i>GitHub</a></li>
+                        <li class="listaHeader listaLinkedin"><a class="itemHeader" href="https://www.linkedin.com/in/thomas-ceraldi/" name="Linkedin" aria-label="linkedin"><i class="bi bi-linkedin" aria-label="linkedin"></i>Linkedin</a></li>
+                        <li class="listaHeader"><a class="itemHeader" href="" download="" name="Descarga-CV" aria-label="descarga-cv"><i class="bi bi-cloud-arrow-down-fill" aria-label="descarga"></i>Descargar CV</a></li>
+                    </ul>
+                </aside>
+        </header>
+
+        <aside id="proyectos">
+            <h2 class="subTitulos">PROYECTOS</h2>
+            <div id="contenedorProyectos">
+                <article id="contenedorProyectoHtmlCss">
+                    <img src="img/pagina_barton_foto.jpg" class="imagenProyecto" alt="imagenProyectoHtmlCss" aria-label="imagenProyectoHtmlCss">
+                    <div id="contenedorContenidoProyecto">
+                        <div id="contenedorTituloBotonProyecto">
+                            <h3 class="tituloProyecto">Primer Proyecto</h3>
+                            <button type="button" class="botonProyecto" data-bs-toggle="modal" data-bs-target="#botonHtmlCss">Ver mas</button>
+                        </div>
+                        <p class="textoProyecto">Maqueta realizada con Balsamiq y logos creados con Photoshop. La pagina cuenta con otros seis Html ademas del Index. Tambien cuenta con diseño responsive y estrategias SEO para optimizar el sitio.</p>
+                        <div class="modal fade" id="botonHtmlCss" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title fs-5" id="staticBackdropLabel">Primer Proyecto</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-circle-fill" aria-label="botonCerrarVideoProyecto"></i></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video class="videoProyecto" src="video/video-pagina-barton.mp4" muted controls aria-label="videoProyectoHtmlCss"><img src="img/pagina_barton_foto.jpg" alt="imagenProyectoHtmlCss" aria-label="imagenProyectoHtmlCss"></video>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="https://github.com/thomasceraldi/pagina_barton_pc" name="proyectoHtmlCssLinkGitHub" aria-label="proyectoHtmlCssLinkGitHub"><i class="bi bi-github" aria-label="github"></i>Abrir Proyecto</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="listaElementosProyecto">
+                            <li><i class="fa-brands fa-html5" aria-label="logoHtml"></i></li>
+                            <li><i class="fa-brands fa-css3-alt" aria-label="logoCss"></i></li>
+                            <li><i class="fa-brands fa-bootstrap" aria-label="logoBootstrap"></i></li>
+                            <li><svg aria-label="logoPhotoshop" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M6,10c0,-2.209 1.791,-4 4,-4h28c2.209,0 4,1.791 4,4v28c0,2.209 -1.791,4 -4,4h-28c-2.209,0 -4,-1.791 -4,-4z" fill="#582614"></path><path d="M20.016,19.174h-2.002v4.434h1.973c0.547,0 0.97,-0.179 1.27,-0.537c0.3,-0.358 0.449,-0.879 0.449,-1.563c0,-0.71 -0.153,-1.274 -0.459,-1.694c-0.306,-0.42 -0.717,-0.633 -1.231,-0.64z" fill="#f9a474"></path><path d="M9,9v30h30v-30zM23.365,24.789c-0.826,0.808 -1.972,1.211 -3.437,1.211h-1.914v5h-2.871v-14.219h4.844c1.406,0 2.528,0.437 3.364,1.309c0.836,0.872 1.255,2.005 1.255,3.398c0,1.393 -0.414,2.493 -1.241,3.301zM32.682,30.336c-0.709,0.573 -1.641,0.859 -2.793,0.859c-0.775,0 -1.459,-0.151 -2.051,-0.454c-0.592,-0.303 -1.057,-0.725 -1.392,-1.265c-0.335,-0.54 -0.503,-1.123 -0.503,-1.748h2.627c0.014,0.481 0.125,0.843 0.337,1.084c0.212,0.241 0.558,0.361 1.04,0.361c0.742,0 1.113,-0.335 1.113,-1.006c0,-0.234 -0.112,-0.451 -0.337,-0.649c-0.225,-0.198 -0.723,-0.466 -1.498,-0.805c-1.139,-0.462 -1.922,-0.94 -2.349,-1.436c-0.427,-0.496 -0.64,-1.11 -0.64,-1.846c0,-0.925 0.334,-1.688 1.001,-2.29c0.667,-0.602 1.552,-0.903 2.651,-0.903c1.158,0 2.086,0.3 2.783,0.898c0.697,0.598 1.045,1.403 1.045,2.412h-2.764c0,-0.859 -0.357,-1.289 -1.074,-1.289c-0.293,0 -0.533,0.091 -0.723,0.273c-0.19,0.182 -0.283,0.437 -0.283,0.762c0,0.234 0.104,0.441 0.313,0.62c0.209,0.179 0.699,0.435 1.475,0.767c1.127,0.417 1.922,0.881 2.388,1.392c0.466,0.511 0.698,1.174 0.698,1.987c0,0.945 -0.355,1.703 -1.064,2.276z" fill="#f9a474"></path></g></g></svg></li>
+                        </ul>
+                    </div>
+                </article>
+                <article id="contenedorProyectoJs">
+                    <img src="img/barton-js-web.jpg" class="imagenProyecto" alt="imagenProyectoJs" aria-label="imagenProyectoJs">
+                    <div id="contenedorContenidoProyecto">
+                        <div id="contenedorTituloBotonProyecto">
+                            <h3 class="tituloProyecto">Sumando Javascript</h3>
+                            <button type="button" class="botonProyecto" data-bs-toggle="modal" data-bs-target="#botonJs">Ver mas</button>
+                        </div>
+                        <p class="textoProyecto">Implementando Javascript en la misma pagina pude darle funcionalidad al front-end: Hacer interactivo el carrito de compras, los formularios, el buscador, almacenar los productos en un .json, mostralos y filtrarlos.</p>
+                        <div class="modal fade" id="botonJs" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modalContent modal-content">
+                                    <div class="modalHeaderBartonJs modal-header">
+                                        <h4 class="modal-title fs-5" id="staticBackdropLabel">Sumando Javascript</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-circle-fill" aria-label="botonCerrarVideoProyecto"></i></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video class="videoProyecto" src="video/video-barton-js.mp4" muted controls aria-label="videoProyectoJs"><img src="img/barton-js-web.jpg" alt="imagenProyectoJs" aria-label="imagenProyectoJs"></video>
+                                    </div>
+                                    <div class="modalFooterBartonJs modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="https://github.com/thomasceraldi/js-barton-pc" name="proyectoJsLinkGitHub" aria-label="proyectoJsLinkGitHub"><i class="bi bi-github" aria-label="github"></i>Abrir Proyecto</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="listaElementosProyecto">
+                            <li><i class="fa-brands fa-html5" aria-label="logoHtml"></i></li>
+                            <li><i class="fa-brands fa-css3-alt" aria-label="logoCss"></i></li>
+                            <li><i class="fa-brands fa-bootstrap" aria-label="logoBootstrap"></i></li>
+                            <li><i class="fa-brands fa-js" aria-label="logoJavascript"></i></li>
+                        </ul>
+                    </div>
+                </article>
+                <article id="contenedorProyectoSass">
+                    <img src="img/foto_tienda_online.JPG" class="imagenProyecto" alt="imagenProyectoTiendaOnline" aria-label="imagenProyectoTiendaOnline">
+                    <div id="contenedorContenidoProyecto">
+                        <div id="contenedorTituloBotonProyecto">
+                            <h3 class="tituloProyecto">Estilos con Sass</h3>
+                            <button type="button" class="botonProyecto" data-bs-toggle="modal" data-bs-target="#botonSass">Ver mas</button>
+                        </div>
+                        <p class="textoProyecto">Esta es una pagina de prueba donde comienzo a utilizar Sass para darle estilos a la web, sumando esta herramienta a los conocimientos adquiridos previamente.</p>
+                        <div class="modal fade" id="botonSass" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modalContent modal-content">
+                                    <div class="modalHeaderTiendaOnline modal-header">
+                                        <h4 class="modal-title fs-5" id="staticBackdropLabel">Estilos con Sass</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-circle-fill" aria-label="botonCerrarVideoProyecto"></i></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video class="videoProyecto" src="video/video-tienda-online.mp4" muted controls aria-label="videoProyectoSass"><img src="img/foto_tienda_online.JPG" alt="imagenProyectoSass" aria-label="imagenProyectoSass"></video>
+                                    </div>
+                                    <div class="modalFooterTiendaOnline modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="https://github.com/thomasceraldi/tienda_online" name="proyectoSassLinkGitHub" aria-label="proyectoSassLinkGitHub"><i class="bi bi-github" aria-label="github"></i>Abrir Proyecto</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="listaElementosProyecto">
+                            <li><i class="fa-brands fa-html5" aria-label="logoHtml"></i></li>
+                            <li><i class="fa-brands fa-css3-alt" aria-label="logoCss"></i></li>
+                            <li><i class="fa-brands fa-sass" aria-label="logoSass"></i></li>
+                            <li><i class="fa-brands fa-bootstrap" aria-label="logoBootstrap"></i></li>
+                            <li><i class="fa-brands fa-js" aria-label="logoJavascript"></i></li>
+                        </ul>
+                    </div>
+                </article>
+                <article id="contenedorProyectoReact">
+                    <img src="img/foto_burmeet.JPG" class="imagenProyecto" alt="imagenProyectoBurmeet" aria-label="imagenProyectoBurmeet">
+                    <div id="contenedorContenidoProyecto">
+                        <div id="contenedorTituloBotonProyecto">
+                            <h3 class="tituloProyecto">Proyecto React</h3>
+                            <button type="button" class="botonProyecto" data-bs-toggle="modal" data-bs-target="#botonReact">Ver mas</button>
+                        </div>
+                        <p class="textoProyecto">Logo creado con Photoshop. Aprendi a usar los diferentes componentes de React, desarrolar codigo .JSX y conectar la App a servicios de Firebase para obtener datos de compra.</p>
+                        <div class="modal fade" id="botonReact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modalHeaderReact modal-header">
+                                        <h4 class="modal-title fs-5" id="staticBackdropLabel">Proyecto React</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-circle-fill" aria-label="botonCerrarVideoProyecto"></i></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video class="videoProyecto" src="video/video-burmeet.mp4" muted controls aria-label="videoProyectoReact"><img src="img/foto_burmeet.JPG" alt="imagenProyectoReact" aria-label="imagenProyectoReact"></video>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="https://github.com/thomasceraldi/burmeet" name="proyectoReactLinkGitHub" aria-label="proyectoReactLinkGitHub"><i class="bi bi-github" aria-label="github"></i>Abrir Proyecto</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="ulTopReactProyecto listaElementosProyecto">
+                            <li><i class="fa-brands fa-react" aria-label="logoReact"></i></li>
+                            <li><i class="fa-brands fa-html5" aria-label="logoHtml"></i></li>
+                            <li><i class="fa-brands fa-css3-alt" aria-label="logoCss"></i></li>
+                            <li><i class="fa-brands fa-js" aria-label="logoJavascript"></i></li>
+                        </ul>
+                        <ul class="ulBottomReactProyecto listaElementosProyecto">
+                            <li><i class="fa-brands fa-node-js" aria-label="logoNode"></i></li>
+                            <li><i class="fa-brands fa-npm" aria-label="logoNpm"></i></li>
+                            <li><svg aria-label="logoFirebase" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M8,37l15.234,-28.564c0.321,-0.602 1.189,-0.591 1.494,0.02l5.272,10.544z" fill="#1c471f"></path><path d="M8,36.992l5.546,-34.199c0.145,-0.895 1.347,-1.089 1.767,-0.285l10.687,20.484z" fill="#1c471f"></path><path d="M8.008,36.986l0.2,-0.157l17.529,-14.341l-4.944,-9.476z" fill="#c0d19e"></path><path d="M8,37l26.666,-25.713c0.559,-0.539 1.492,-0.221 1.606,0.547l3.728,25.166l-15,8.743c-0.609,0.342 -1.352,0.342 -1.961,0z" fill="#1c471f"></path></g></g></svg></li>
+                            <li><svg aria-label="logoPhotoshop" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M6,10c0,-2.209 1.791,-4 4,-4h28c2.209,0 4,1.791 4,4v28c0,2.209 -1.791,4 -4,4h-28c-2.209,0 -4,-1.791 -4,-4z" fill="#1c471f"></path><path d="M20.016,19.174h-2.002v4.434h1.973c0.547,0 0.97,-0.179 1.27,-0.537c0.3,-0.358 0.449,-0.879 0.449,-1.563c0,-0.71 -0.153,-1.274 -0.459,-1.694c-0.306,-0.42 -0.717,-0.633 -1.231,-0.64z" fill="#c0d19e"></path><path d="M9,9v30h30v-30zM23.365,24.789c-0.826,0.808 -1.972,1.211 -3.437,1.211h-1.914v5h-2.871v-14.219h4.844c1.406,0 2.528,0.437 3.364,1.309c0.836,0.872 1.255,2.005 1.255,3.398c0,1.393 -0.414,2.493 -1.241,3.301zM32.682,30.336c-0.709,0.573 -1.641,0.859 -2.793,0.859c-0.775,0 -1.459,-0.151 -2.051,-0.454c-0.592,-0.303 -1.057,-0.725 -1.392,-1.265c-0.335,-0.54 -0.503,-1.123 -0.503,-1.748h2.627c0.014,0.481 0.125,0.843 0.337,1.084c0.212,0.241 0.558,0.361 1.04,0.361c0.742,0 1.113,-0.335 1.113,-1.006c0,-0.234 -0.112,-0.451 -0.337,-0.649c-0.225,-0.198 -0.723,-0.466 -1.498,-0.805c-1.139,-0.462 -1.922,-0.94 -2.349,-1.436c-0.427,-0.496 -0.64,-1.11 -0.64,-1.846c0,-0.925 0.334,-1.688 1.001,-2.29c0.667,-0.602 1.552,-0.903 2.651,-0.903c1.158,0 2.086,0.3 2.783,0.898c0.697,0.598 1.045,1.403 1.045,2.412h-2.764c0,-0.859 -0.357,-1.289 -1.074,-1.289c-0.293,0 -0.533,0.091 -0.723,0.273c-0.19,0.182 -0.283,0.437 -0.283,0.762c0,0.234 0.104,0.441 0.313,0.62c0.209,0.179 0.699,0.435 1.475,0.767c1.127,0.417 1.922,0.881 2.388,1.392c0.466,0.511 0.698,1.174 0.698,1.987c0,0.945 -0.355,1.703 -1.064,2.276z" fill="#c0d19e"></path></g></g></svg></li>
+                        </ul>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </aside>
+
+        <section id="skillset">
+            <h2 class="subTitulos">SKILLSET</h2>
+            <div id="contenedorSkillset">
+                <div id="divisionSkillset">
+                    <i class="iconoSkill fa-brands fa-html5" style="color: #fda50d;" aria-label="logoHtml"></i>
+                    <i class="iconoSkill fa-brands fa-css3-alt" style="color: #74C0FC;" aria-label="logoCss"></i>
+                    <i class="iconoSkill fa-brands fa-js" style="color: #FFD43B;" aria-label="logoJavascript"></i>
+                    <i class="iconoSkill fa-brands fa-react" style="color: #89c9fb;" aria-label="logoReact"></i>
+                    <i class="iconoSkill fa-brands fa-bootstrap" style="color: #7d52ff;" aria-label="logoBootstrap"></i>
+                    <i class="iconoSkill fa-brands fa-sass" style="color: #fbacea;" aria-label="logoSass"></i>
+                    <i class="iconoSkill fa-brands fa-git-alt" style="color: #fd4444;" aria-label="logoGit"></i>
+                    <i class="iconoSkill fa-brands fa-square-github" style="color: #000000e0;" aria-label="logoGitHub"></i>
+                </div>
+                <div>
+                    <i class="iconoSkill fa-brands fa-node-js" style="color: #68f85d;" aria-label="logoNode"></i>
+                    <i class="iconoSkill fa-brands fa-npm" style="color: #f48080;" aria-label="logoNpm"></i>
+                    <i class="logoTerminal iconoSkill bi bi-terminal-fill" style="color: #000000e5" aria-label="logoTerminal"></i>
+                    <svg class="iconoSkillSvg" aria-label="logoFirebase" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48"><path fill="#ff8f00" d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"></path><path fill="#ffa000" d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z"></path><path fill="#ff6f00" d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z"></path><path fill="#ffc400" d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"></path></svg>
+                    <svg class="iconoSkillSvg" aria-label="logoJquery" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"><defs><linearGradient x1="24.406" y1="-2.012" x2="43.438" y2="30.953" gradientUnits="userSpaceOnUse" id="color-1_XH6rVkDQCZ9U_gr1"><stop offset="0" stop-color="#3643e5" stop-opacity="0.92157"></stop><stop offset="1" stop-color="#262626" stop-opacity="0.8"></stop></linearGradient><linearGradient x1="3.592" y1="-6.061" x2="45.192" y2="65.993" gradientUnits="userSpaceOnUse" id="color-2_XH6rVkDQCZ9U_gr2"><stop offset="0" stop-color="#3643e5" stop-opacity="0.92157"></stop><stop offset="1" stop-color="#262626" stop-opacity="0.8"></stop></linearGradient><linearGradient x1="14.52" y1="-4.589" x2="44.861" y2="47.963" gradientUnits="userSpaceOnUse" id="color-3_XH6rVkDQCZ9U_gr3"><stop offset="0" stop-color="#3643e5" stop-opacity="0.92157"></stop><stop offset="1" stop-color="#262626" stop-opacity="0.8"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M37,18c-4.971,0 -9,-4.029 -9,-9c0,-1.975 0.643,-3.795 1.721,-5.279c-2.251,1.636 -3.721,4.283 -3.721,7.279c0,4.971 4.029,9 9,9c2.996,0 5.643,-1.47 7.279,-3.721c-1.484,1.078 -3.305,1.721 -5.279,1.721z" fill="url(#color-1_XH6rVkDQCZ9U_gr1)"></path><path d="M29,37c-11.046,0 -20,-8.954 -20,-20c0,-2.797 0.578,-5.458 1.615,-7.875c-3.47,3.597 -5.615,8.482 -5.615,13.875c0,11.046 8.954,20 20,20c8.249,0 15.327,-4.996 18.385,-12.125c-3.638,3.77 -8.732,6.125 -14.385,6.125z" fill="url(#color-2_XH6rVkDQCZ9U_gr2)"></path><path d="M33.5,27c-8.008,0 -14.5,-6.492 -14.5,-14.5c0,-2.361 0.576,-4.584 1.578,-6.554c-2.812,2.645 -4.578,6.389 -4.578,10.554c0,8.008 6.492,14.5 14.5,14.5c5.647,0 10.528,-3.235 12.922,-7.946c-2.594,2.44 -6.079,3.946 -9.922,3.946z" fill="url(#color-3_XH6rVkDQCZ9U_gr3)"></path></g></g></svg>
+                    <svg class="logoPhotoshop iconoSkillSvg" aria-label="logoPhotoshop" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48"><path fill="#03A9F4" d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"></path><path fill="#020F16" d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"></path><path fill="#020F16" d="M9,9v30h30V9H9z M23.365,24.789C22.539,25.597,21.393,26,19.928,26h-1.914v5h-2.871V16.781h4.844c1.406,0,2.528,0.437,3.364,1.309s1.255,2.005,1.255,3.398S24.192,23.981,23.365,24.789z M32.682,30.336c-0.709,0.573-1.641,0.859-2.793,0.859c-0.775,0-1.459-0.151-2.051-0.454s-1.057-0.725-1.392-1.265s-0.503-1.123-0.503-1.748h2.627c0.014,0.481,0.125,0.843,0.337,1.084s0.558,0.361,1.04,0.361c0.742,0,1.113-0.335,1.113-1.006c0-0.234-0.112-0.451-0.337-0.649S30,27.052,29.225,26.713c-1.139-0.462-1.922-0.94-2.349-1.436s-0.64-1.11-0.64-1.846c0-0.925,0.334-1.688,1.001-2.29s1.552-0.903,2.651-0.903c1.158,0,2.086,0.3,2.783,0.898s1.045,1.403,1.045,2.412h-2.764c0-0.859-0.357-1.289-1.074-1.289c-0.293,0-0.533,0.091-0.723,0.273s-0.283,0.437-0.283,0.762c0,0.234,0.104,0.441,0.313,0.62s0.699,0.435,1.475,0.767c1.127,0.417,1.922,0.881,2.388,1.392s0.698,1.174,0.698,1.987C33.746,29.005,33.391,29.763,32.682,30.336z"></path></svg>
+                    <svg class="iconoSkillSvg" aria-label="logoExpress" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M49.729 11h-.85c-1.051 0-2.041.49-2.68 1.324l-8.7 11.377-8.7-11.377C28.162 11.49 27.171 11 26.121 11h-.85l10.971 14.346L25.036 40h.85c1.051 0 2.041-.49 2.679-1.324L37.5 26.992l8.935 11.684C47.073 39.51 48.063 40 49.114 40h.85L38.758 25.346 49.729 11zM21.289 34.242c-2.554 3.881-7.582 5.87-12.389 4.116C4.671 36.815 2 32.611 2 28.109L2 27h12v0h11l0-4.134c0-6.505-4.818-12.2-11.295-12.809C6.273 9.358 0 15.21 0 22.5l0 5.573c0 5.371 3.215 10.364 8.269 12.183 6.603 2.376 13.548-1.17 15.896-7.256 0 0 0 0 0 0h-.638C22.616 33 21.789 33.481 21.289 34.242zM2 22.5C2 16.71 6.71 12 12.5 12S23 16.71 23 22.5V25H2V22.5z"></path></svg>
+                    <svg class="iconoSkillSvg" aria-label="logoVisualStudioCode" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48"><path fill="#29b6f6" d="M44,11.11v25.78c0,1.27-0.79,2.4-1.98,2.82l-8.82,4.14L34,33V15L33.2,4.15l8.82,4.14 C43.21,8.71,44,9.84,44,11.11z"></path><path fill="#0277bd" d="M9,33.896L34,15V5.353c0-1.198-1.482-1.758-2.275-0.86L4.658,29.239 c-0.9,0.83-0.849,2.267,0.107,3.032c0,0,1.324,1.232,1.803,1.574C7.304,34.37,8.271,34.43,9,33.896z"></path><path fill="#0288d1" d="M9,14.104L34,33v9.647c0,1.198-1.482,1.758-2.275,0.86L4.658,18.761 c-0.9-0.83-0.849-2.267,0.107-3.032c0,0,1.324-1.232,1.803-1.574C7.304,13.63,8.271,13.57,9,14.104z"></path></svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="skillsetMediaQuery">
+            <h2 class="subTitulos">SKILLSET</h2>
+            <div id="contenedorSkillset">
+                <div id="divisionSkillset">
+                    <i class="iconoSkill fa-brands fa-html5" style="color: #fda50d;" aria-label="logoHtml"></i>
+                    <i class="iconoSkill fa-brands fa-css3-alt" style="color: #74C0FC;" aria-label="logoCss"></i>
+                    <i class="iconoSkill fa-brands fa-js" style="color: #FFD43B;" aria-label="logoJavascript"></i>
+                    <i class="iconoSkill fa-brands fa-react" style="color: #89c9fb;" aria-label="logoReact"></i>
+                </div>
+                <div id="divisionSkillset">
+                    <i class="iconoSkill fa-brands fa-bootstrap" style="color: #7d52ff;" aria-label="logoBootstrap"></i>
+                    <i class="iconoSkill fa-brands fa-git-alt" style="color: #fd4444;" aria-label="logoGit"></i>
+                    <i class="iconoSkill fa-brands fa-sass" style="color: #fbacea;" aria-label="logoSass"></i>
+                    <i class="iconoSkill fa-brands fa-square-github" style="color: #000000e0;" aria-label="logoGitHub"></i>
+                </div>
+                <div id="divisionSkillset" class="tercerContenedorSkillset">
+                    <i class="iconoSkill fa-brands fa-node-js" style="color: #68f85d;" aria-label="logoNode"></i>
+                    <i class="iconoSkill fa-brands fa-npm" style="color: #f48080;" aria-label="logoNpm"></i>
+                    <i class="logoTerminal iconoSkill bi bi-terminal-fill" style="color: #000000e5" aria-label="logoTerminal"></i>
+                    <svg class="iconoSkillSvg" aria-label="logoFirebase" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48"><path fill="#ff8f00" d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"></path><path fill="#ffa000" d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z"></path><path fill="#ff6f00" d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z"></path><path fill="#ffc400" d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"></path></svg>
+                </div>
+                <div id="divisionSkillset">
+                    <svg class="iconoSkillSvg" aria-label="logoJquery" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"><g fill="#4c6aac" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M29.86719,3.00781c-0.10547,0.01563 -0.21094,0.04688 -0.3125,0.09375c-0.85937,0.42578 -1.83594,1.69141 -2.02344,1.94141c-0.01172,0.01563 -0.02344,0.03125 -0.03125,0.04688c-0.96484,1.44531 -1.48047,3.13672 -1.5,4.89844c-0.01172,1.32031 0.24609,2.62891 0.76953,3.89063c1.21875,2.92578 3.75,5.34766 6.76172,6.48047c0.10156,0.03516 0.19922,0.07031 0.375,0.13281c0.01563,0.00781 0.16406,0.05469 0.1875,0.05859l0.10938,0.03906c0.15625,0.05078 0.31641,0.10156 0.47266,0.13281c0.79297,0.16016 1.56641,0.25 2.29297,0.27344c0.125,0 0.25,0.00391 0.375,0.00391c5.48047,0 7.60547,-3.86719 8.3125,-5.15625c0.07031,-0.125 0.12109,-0.22656 0.16797,-0.28906c0,-0.00391 0,-0.00391 0.00391,-0.00781c0.30859,-0.45703 0.19141,-1.07812 -0.26562,-1.39062c-0.45312,-0.30859 -1.07422,-0.19141 -1.38672,0.26563h-0.00391c-1.46094,2.15234 -3.96094,2.80469 -7.42578,1.94531c-0.25781,-0.0625 -0.53906,-0.16016 -0.78906,-0.25391c-0.32812,-0.11719 -0.65625,-0.25391 -0.96094,-0.40234c-0.60547,-0.30078 -1.17578,-0.66016 -1.69141,-1.05859c-3.04687,-2.36328 -4.23828,-7.28125 -2.45703,-10.12109c0.23828,-0.37891 0.19531,-0.87109 -0.10547,-1.20312c-0.22656,-0.25 -0.55469,-0.36328 -0.875,-0.32031zM21.00781,5c-0.22656,-0.00391 -0.45703,0.07031 -0.64453,0.22656c-1.51172,1.23047 -3.05859,3.24609 -3.125,3.32813c-0.00781,0.01563 -0.01562,0.02734 -0.02734,0.04297c-2.73437,3.98047 -2.94141,9.64453 -0.52344,14.42969c0.37891,0.75781 0.80859,1.48047 1.26563,2.14453l0.13672,0.19531c0.38672,0.56641 0.82031,1.20703 1.375,1.70703c0.19141,0.21875 0.39844,0.42969 0.60156,0.63281l0.09766,0.10156l0.08203,0.08203c0.20703,0.19922 0.41797,0.40234 0.63672,0.59766h0.00391c0.01563,0.02344 0.03906,0.03906 0.05859,0.05859c0.24609,0.21875 0.49609,0.42578 0.82813,0.6875l0.08984,0.06641c0.25781,0.20703 0.51953,0.40234 0.78906,0.59375c0.02734,0.01953 0.05469,0.03906 0.08203,0.05859c0.09375,0.0625 0.1875,0.12109 0.28125,0.1875l0.09375,0.0625l0.10938,0.07031c0.19922,0.13281 0.39453,0.25391 0.67188,0.41406c0.17969,0.10938 0.37109,0.21875 0.49609,0.28125c0.05469,0.03125 0.11328,0.0625 0.25,0.13672l0.30469,0.16016c0.01563,0.00781 0.08594,0.03906 0.10156,0.04688c0.19922,0.10156 0.40625,0.19922 0.61328,0.29297l0.31641,0.14063c0.20703,0.08984 0.41797,0.17578 0.67578,0.27344l0.11719,0.04297c0.00781,0.00781 0.10547,0.04297 0.11328,0.04688c0.1875,0.06641 0.37891,0.13281 0.57031,0.19531l0.4375,0.14453c0.21875,0.07422 0.47266,0.16016 0.75,0.20703c1.36328,0.22656 2.6875,0.34375 3.94141,0.34375c0.14844,0 0.29688,-0.00391 0.44141,-0.00391c11.03906,-0.24219 13.91016,-9.62109 13.9375,-9.71484c0.13672,-0.47266 -0.08594,-0.97656 -0.53125,-1.1875c-0.44531,-0.21094 -0.97656,-0.0625 -1.25391,0.34375c-2.79687,4.08594 -8.08594,5.8125 -13.47266,4.39063c-0.25,-0.0625 -0.49219,-0.13281 -0.79297,-0.23047c-0.05078,-0.01562 -0.09375,-0.03125 -0.17578,-0.0625c-0.17578,-0.05469 -0.34766,-0.11328 -0.54297,-0.1875l-0.27734,-0.10547c-0.16016,-0.0625 -0.32031,-0.125 -0.51562,-0.21094l-0.12891,-0.05859c-0.23828,-0.10156 -0.46875,-0.21484 -0.67578,-0.31641l-0.57031,-0.29687c-0.12891,-0.0625 -0.24219,-0.13281 -0.41797,-0.23828l-0.09766,-0.05469l-0.09766,-0.05859c-0.14453,-0.08594 -0.28906,-0.17578 -0.42187,-0.26953l-0.09375,-0.05859c-0.00781,-0.00391 -0.08594,-0.05859 -0.09375,-0.06641c-0.11719,-0.07422 -0.23047,-0.14844 -0.33984,-0.21875c-0.24219,-0.17187 -0.48047,-0.35156 -0.75781,-0.57031l-0.10937,-0.08984c-2.57812,-2.05859 -4.48437,-4.80859 -5.37891,-7.75781c-0.83203,-2.70703 -0.21484,-6.25 1.65234,-9.47656c0.24219,-0.41797 0.15234,-0.94922 -0.21875,-1.26172c-0.18359,-0.15625 -0.41016,-0.23828 -0.63672,-0.23828zM10.00391,8c-0.23828,0 -0.48047,0.08594 -0.67187,0.25781c-1.91016,1.71484 -3.33984,3.9375 -3.49609,4.19141c-4.08594,5.94922 -3.29687,15.19531 -0.49219,20.84766c0.05469,0.11719 0.11328,0.23047 0.17188,0.34375l0.03906,0.0625c0.05078,0.11328 0.10938,0.23047 0.12891,0.25391c0.03125,0.07422 0.07813,0.15625 0.09766,0.17969c0.04688,0.09766 0.09375,0.18359 0.17969,0.33203l0.32031,0.55078c0.04688,0.07422 0.09375,0.15234 0.10938,0.17969c0.0625,0.10156 0.12891,0.20703 0.19531,0.3125l0.15625,0.25c0.04688,0.07422 0.09375,0.14063 0.125,0.17969c0.15625,0.24219 0.3125,0.48438 0.48438,0.71484c0.00781,0.01172 0.01563,0.01953 0.02344,0.02734l0.0625,0.08594c0.14063,0.20313 0.28516,0.39844 0.41406,0.55859l0.57031,0.72266c0.00781,0.00781 0.07031,0.08203 0.07422,0.08984l0.08203,0.09375c0.17188,0.21094 0.35547,0.42188 0.53906,0.625c0.02734,0.03125 0.05469,0.05859 0.08203,0.08984c0.17578,0.19141 0.35547,0.38281 0.54297,0.58203l0.17969,0.17188c0.14844,0.15625 0.29688,0.30859 0.45313,0.45313c0,0.00391 0.07422,0.07422 0.07422,0.07422l0.15625,0.14453c0.1875,0.17969 0.38281,0.35938 0.53125,0.48438c0.00781,0.01172 0.14844,0.13281 0.16016,0.14063c0.18359,0.16406 0.36719,0.32031 0.55469,0.47266l0.95703,0.75781c0.16016,0.11719 0.32422,0.23438 0.51172,0.37109c0.0625,0.04688 0.12891,0.09375 0.19531,0.13672c0.02734,0.02344 0.05859,0.04688 0.07813,0.05859l0.71875,0.48047c0.26172,0.17188 0.52344,0.33203 0.84375,0.52344l0.17188,0.09766c0.19922,0.11719 0.40234,0.23438 0.59375,0.33594c0.11328,0.0625 0.22656,0.11719 0.32422,0.16797c0.13672,0.07422 0.28516,0.15625 0.51172,0.26563c0.01953,0.01172 0.17969,0.08984 0.19922,0.09766c0.22656,0.11328 0.45703,0.21875 0.74609,0.34766c0,0.00391 0.09375,0.04688 0.09375,0.04688c0.26563,0.11328 0.52344,0.22266 0.86328,0.35938c0.05469,0.02344 0.10938,0.04297 0.12109,0.04688c0.24219,0.09375 0.49609,0.1875 0.70313,0.26172c0.01953,0.00781 0.125,0.05078 0.14453,0.05859c0.27734,0.09375 0.55078,0.18359 0.90234,0.29297c0.05859,0.01953 0.12109,0.03906 0.12891,0.03906l0.19922,0.0625c0.24219,0.07422 0.48438,0.15234 0.74609,0.20313c1.85938,0.33984 3.67578,0.51563 5.39453,0.51563h0.00391c14.32422,0 18.88672,-11.52734 18.93359,-11.64453c0.17578,-0.46484 -0.01562,-0.98828 -0.45312,-1.23047c-0.42969,-0.23828 -0.97656,-0.125 -1.28125,0.26953c-3.67578,4.83984 -10.60937,6.63672 -18.54687,4.8125c-0.19141,-0.04687 -0.38672,-0.10156 -0.57812,-0.16016l-0.375,-0.11328c-0.25391,-0.07812 -0.50781,-0.16406 -0.75391,-0.25c-0.00391,0 -0.11719,-0.04297 -0.11719,-0.04297c-0.21875,-0.07422 -0.4375,-0.16016 -0.62891,-0.23437l-0.21875,-0.08594c-0.24219,-0.09766 -0.48437,-0.19922 -0.71875,-0.30469l-0.13672,-0.05859c-0.21094,-0.09766 -0.41406,-0.19141 -0.61719,-0.29297c-0.01562,-0.00781 -0.17578,-0.08594 -0.19141,-0.08984c-0.14062,-0.07031 -0.28125,-0.14453 -0.46094,-0.24219l-0.81641,-0.4375c-0.08203,-0.05469 -0.16797,-0.10547 -0.25,-0.14844c-0.24609,-0.15234 -0.5,-0.30469 -0.75,-0.46484c-0.05859,-0.03516 -0.10937,-0.07422 -0.20703,-0.14062c-0.17187,-0.10937 -0.33984,-0.22266 -0.58594,-0.39453l-0.09766,-0.07031c-0.16797,-0.11719 -0.33203,-0.24219 -0.46875,-0.34375c-0.08594,-0.0625 -0.17187,-0.13281 -0.3125,-0.23828c-0.125,-0.09766 -0.25,-0.19141 -0.36719,-0.28516l-0.21875,-0.17969c-0.18359,-0.14844 -0.35547,-0.30469 -0.53516,-0.45703c-0.02344,-0.02344 -0.04297,-0.03906 -0.07031,-0.05859c-0.19922,-0.18359 -0.40234,-0.36719 -0.64453,-0.59766l-0.70703,-0.70312c-0.17187,-0.17578 -0.34375,-0.35547 -0.53906,-0.57031c-0.17969,-0.19922 -0.35156,-0.39844 -0.58203,-0.67187l-0.42187,-0.51562c-0.05078,-0.07422 -0.10547,-0.14844 -0.17187,-0.22656c-0.14453,-0.19531 -0.28906,-0.38672 -0.43359,-0.58984c-3.89062,-5.35937 -4.90625,-16.54687 -1.875,-20.64453c0.30469,-0.41016 0.25,-0.98828 -0.13281,-1.33594c-0.1875,-0.17187 -0.42969,-0.25781 -0.66797,-0.25781z"></path></g></g></svg>
+                    <svg class="logoPhotoshop iconoSkillSvg" aria-label="logoPhotoshop" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48"><path fill="#03A9F4" d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"></path><path fill="#020F16" d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"></path><path fill="#020F16" d="M9,9v30h30V9H9z M23.365,24.789C22.539,25.597,21.393,26,19.928,26h-1.914v5h-2.871V16.781h4.844c1.406,0,2.528,0.437,3.364,1.309s1.255,2.005,1.255,3.398S24.192,23.981,23.365,24.789z M32.682,30.336c-0.709,0.573-1.641,0.859-2.793,0.859c-0.775,0-1.459-0.151-2.051-0.454s-1.057-0.725-1.392-1.265s-0.503-1.123-0.503-1.748h2.627c0.014,0.481,0.125,0.843,0.337,1.084s0.558,0.361,1.04,0.361c0.742,0,1.113-0.335,1.113-1.006c0-0.234-0.112-0.451-0.337-0.649S30,27.052,29.225,26.713c-1.139-0.462-1.922-0.94-2.349-1.436s-0.64-1.11-0.64-1.846c0-0.925,0.334-1.688,1.001-2.29s1.552-0.903,2.651-0.903c1.158,0,2.086,0.3,2.783,0.898s1.045,1.403,1.045,2.412h-2.764c0-0.859-0.357-1.289-1.074-1.289c-0.293,0-0.533,0.091-0.723,0.273s-0.283,0.437-0.283,0.762c0,0.234,0.104,0.441,0.313,0.62s0.699,0.435,1.475,0.767c1.127,0.417,1.922,0.881,2.388,1.392s0.698,1.174,0.698,1.987C33.746,29.005,33.391,29.763,32.682,30.336z"></path></svg>
+                    <svg class="iconoSkillSvg" aria-label="logoExpress" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M49.729 11h-.85c-1.051 0-2.041.49-2.68 1.324l-8.7 11.377-8.7-11.377C28.162 11.49 27.171 11 26.121 11h-.85l10.971 14.346L25.036 40h.85c1.051 0 2.041-.49 2.679-1.324L37.5 26.992l8.935 11.684C47.073 39.51 48.063 40 49.114 40h.85L38.758 25.346 49.729 11zM21.289 34.242c-2.554 3.881-7.582 5.87-12.389 4.116C4.671 36.815 2 32.611 2 28.109L2 27h12v0h11l0-4.134c0-6.505-4.818-12.2-11.295-12.809C6.273 9.358 0 15.21 0 22.5l0 5.573c0 5.371 3.215 10.364 8.269 12.183 6.603 2.376 13.548-1.17 15.896-7.256 0 0 0 0 0 0h-.638C22.616 33 21.789 33.481 21.289 34.242zM2 22.5C2 16.71 6.71 12 12.5 12S23 16.71 23 22.5V25H2V22.5z"></path></svg>
+                    <svg class="iconoSkillSvg" aria-label="logoVisualStudioCode" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48"><path fill="#29b6f6" d="M44,11.11v25.78c0,1.27-0.79,2.4-1.98,2.82l-8.82,4.14L34,33V15L33.2,4.15l8.82,4.14 C43.21,8.71,44,9.84,44,11.11z"></path><path fill="#0277bd" d="M9,33.896L34,15V5.353c0-1.198-1.482-1.758-2.275-0.86L4.658,29.239 c-0.9,0.83-0.849,2.267,0.107,3.032c0,0,1.324,1.232,1.803,1.574C7.304,34.37,8.271,34.43,9,33.896z"></path><path fill="#0288d1" d="M9,14.104L34,33v9.647c0,1.198-1.482,1.758-2.275,0.86L4.658,18.761 c-0.9-0.83-0.849-2.267,0.107-3.032c0,0,1.324-1.232,1.803-1.574C7.304,13.63,8.271,13.57,9,14.104z"></path></svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidadesExtra">
+            <h2 class="subTitulos">HABILIDADES EXTRA</h2>
+            <div id="contenedorHabilidades">
+                <div id="contenedorPsicologia">
+                    <img src="img/foto-psi.png" alt="fotoPsicologiaLogo" aria-label="fotoPsicologiaLogo">
+                    <p>Como estudiante de la Licenciatura en Psicologia presento competencias socioemocionales tanto intrapersonales como interpersonales. Ademas, destaco la aptitud analitica y la capacidad de investigacion que te brinda la carrera.</p>
+                </div>
+                <div>
+                    <img src="img/foto-bateria.png" alt="fotoBateria" aria-label="fotoBateria">
+                    <p>Como baterista trabaje en distintas bandas musicales lo que me permitio cooperar con distintos equipos de personas y fortalecer la dinamica de trabajo grupal al momento de poner en comun distintas opiniones e integrarlas en una pieza musical.</p>
+                </div>
+                <div id="contenedorPc">
+                    <img src="img/foto-pc.png" alt="fotoPC" aria-label="fotoPC">
+                    <p>Como empleado de comercio en un negocio de computacion pude trabajar con el hardware reparando PC y Notebook. Ademas desarrolle otras habilidades como la atencion al publico, control de stock y compra y venta de insumos.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>- Thomas Ceraldi -</p>
+        </footer>
+
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d5b14ee05.js" crossorigin="anonymous"></script>
+
+</html>
